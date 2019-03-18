@@ -1,6 +1,6 @@
 {
   "name": "stisla-theme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Standalone CSS / SCSS theme of the popular stisla bootstrap admin template",
   "main": "./dist/scss/style.scss",
   "files": "./dist",

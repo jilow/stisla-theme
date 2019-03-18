@@ -8,7 +8,11 @@ This is the standalone CSS and SCSS theme of the popular [stisla free Bootstrap 
 
 Install
 ```bash
-yarn add https://github.com/jilow/stisla-theme.git
+# using NPM
+npm i stisla-theme
+
+# using yarn
+yarn add stisla-theme
 ```
 
 Using SCSS
