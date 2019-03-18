@@ -16,7 +16,7 @@ Using SCSS
 @import 'stisla-theme/dist/scss/style.scss';
 ```
 
-UIsing CSS
+Using CSS
 ```css
 @import 'stisla-theme/dist/css/style.css';
 ```
