@@ -1,9 +1,11 @@
 {
   "name": "stisla-theme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Standalone CSS / SCSS theme of the popular stisla bootstrap admin template",
   "main": "./dist/scss/style.scss",
-  "files": "./dist",
+  "files": [
+    "./dist/**/*"
+  ],
   "keywords": [
     "stisla",
     "theme",
@@ -15,7 +17,8 @@
     "copy-src": "cpy ./scss/**/*.scss ../../src --parents --cwd ./stisla/sources",
     "copy-dist": "cpy ./**/*.scss ../../dist/scss --parents --cwd ./src/scss",
     "compile": "node-sass ./src/scss -o ./dist/css",
-    "prepublish": "npm run compile && npm run copy-dist",
+    "build": "npm run compile && npm run copy-dist",
+    "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jiaan",

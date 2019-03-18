@@ -46,9 +46,14 @@ Install dependencies
 yarn
 ```
 
-Build
+Build for distribution 
 ```bash
-yarn prepublish
+yarn build
+```
+
+Publish to NPM (auto builds)
+```
+yarn publish
 ```
 
 ## License
