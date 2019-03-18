@@ -1,9 +1,16 @@
 {
   "name": "stisla-theme",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "Standalone CSS / SCSS theme of the popular stisla bootstrap admin template",
+  "main": "./dist/scss/style.scss",
   "files": "./dist",
+  "keywords": [
+    "stisla",
+    "theme",
+    "bootstrap",
+    "scss",
+    "css"
+  ],
   "scripts": {
     "copy-src": "cpy ./scss/**/*.scss ../../src --parents --cwd ./stisla/sources",
     "copy-dist": "cpy ./**/*.scss ../../dist/scss --parents --cwd ./src/scss",
@@ -11,11 +18,19 @@
     "prepublish": "npm run compile && npm run copy-dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jiaan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jilow/stisla-theme"
+  },
   "dependencies": {},
   "devDependencies": {
     "node-sass": "^4.11.0",
     "cpy-cli": "^2.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/jilow/stisla-theme/issues"
+  },
+  "homepage": "https://github.com/jilow/stisla-theme"
 }
