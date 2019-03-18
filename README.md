@@ -14,11 +14,19 @@ yarn add https://github.com/jilow/stisla-theme.git
 Using SCSS
 ```scss
 @import 'stisla-theme/dist/scss/style.scss';
+
+/* optional imports */
+@import 'stisla-theme/dist/scss/components.scss';
+@import 'stisla-theme/dist/scss/rtl.scss';
 ```
 
 Using CSS
 ```css
 @import 'stisla-theme/dist/css/style.css';
+
+/* optional imports */
+@import 'stisla-theme/dist/css/components.css';
+@import 'stisla-theme/dist/css/rtl.css';
 ```
 
 ## Development
