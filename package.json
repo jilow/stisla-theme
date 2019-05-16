@@ -1,6 +1,6 @@
 {
   "name": "stisla-theme",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Standalone CSS / SCSS theme of the popular stisla bootstrap admin template",
   "main": "./dist/scss/style.scss",
   "files": [
@@ -30,8 +30,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "node-sass": "^4.11.0",
-    "cpy-cli": "^2.0.0"
+    "cpy-cli": "^2.0.0",
+    "node-sass": "^4.11.0"
   },
   "bugs": {
     "url": "https://github.com/jilow/stisla-theme/issues"
