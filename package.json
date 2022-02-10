@@ -31,7 +31,7 @@
   "dependencies": {},
   "devDependencies": {
     "cpy-cli": "^2.0.0",
-    "node-sass": "^4.11.0"
+    "node-sass": "^7.0.0"
   },
   "bugs": {
     "url": "https://github.com/jilow/stisla-theme/issues"
