@@ -22,6 +22,7 @@ Using SCSS
 /* optional imports */
 @import 'stisla-theme/dist/scss/components.scss';
 @import 'stisla-theme/dist/scss/rtl.scss';
+@import 'stisla-theme/dist/scss/skins/reverse.scss';
 ```
 
 Using CSS
@@ -31,6 +32,7 @@ Using CSS
 /* optional imports */
 @import 'stisla-theme/dist/css/components.css';
 @import 'stisla-theme/dist/css/rtl.css';
+@import 'stisla-theme/dist/css/skins/reverse.css';
 ```
 
 ## Development
@@ -57,6 +59,7 @@ yarn publish
 ```
 
 ## License
+
 Stisla is under the [MIT License](LICENSE)
 
 ## Credits
