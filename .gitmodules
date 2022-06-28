@@ -1,3 +1,4 @@
 [submodule "stisla"]
 	path = stisla
 	url = https://github.com/stisla/stisla.git
+	branch = v2.2.0
