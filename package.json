@@ -15,9 +15,10 @@
     "css"
   ],
   "scripts": {
-    "copy-scss": "cp -r ./src/scss ./dist/scss",
+    "copy-src": "rsync -a --prune-empty-dirs --include '*/' --include '*.scss' --exclude '*' ./stisla/sources/ src/",
+    "copy-dist": "cp -r ./src/scss ./dist/scss",
     "compile": "node-sass ./src/scss -o ./dist/css",
-    "build": "npm run compile && npm run copy-scss",
+    "build": "npm run compile && npm run copy-dist",
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

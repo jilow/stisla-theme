@@ -48,6 +48,11 @@ Install dependencies
 yarn
 ```
 
+Copy scss files from stisla submodule
+```bash
+yarn copy-src
+```
+
 Build for distribution 
 ```bash
 yarn build
